@@ -1,5 +1,11 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+} */
+
+@font-face {
+  font-family: "SUIT Medium";
+  src: local("SUIT Medium"),
+    url("./assets/fonts/SUIT-Medium.otf") format("opentype");
 }
 
 body {
@@ -51,7 +57,7 @@ body {
 .form-head h2 {
   color: #101010;
   text-align: center;
-  /* font-family: "SUIT Variable"; */
+  font-family: "SUIT Medium";
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
@@ -62,7 +68,7 @@ body {
 .form-head p {
   color: #6c757d;
   text-align: center;
-  /* font-family: "SUIT Variable"; */
+  font-family: "SUIT Medium";
   font-size: 13.891px;
   font-style: normal;
   font-weight: 400;
@@ -97,6 +103,7 @@ body {
 .remember-check {
   display: flex;
   align-items: center;
+  gap: 5px;
 }
 
 .remember-check input {
@@ -105,7 +112,7 @@ body {
 
 .rem {
   color: #101010;
-  /* font-family: "SUIT Variable"; */
+  font-family: "SUIT Medium";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
